@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  font-size: 2vw;
+}
+body {
+  margin: 0;
+  background: black;
+  color: pink;
+  font-family: monospace;
+  letter-spacing: 0.5em;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+main {
+  margin: auto;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label,
+button,
+input[type="submit"] {
+  background: black;
+  color: pink;
+  cursor: pointer;
+  border: solid 0.1em pink;
+  padding: 0.5em;
+  font-size: 1rem;
+  letter-spacing: 0.5em;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+#output {
+  border: solid 0.2em pink;
+}
